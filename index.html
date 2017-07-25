@@ -6,11 +6,20 @@
 
     <script src="node_modules/react/dist/react.min.js"></script>
     <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="babel.min.js"></script>
+
+    <!--<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>-->
 </head>
 <body>
     <h1>sample</h1>
+
+    <div id="justjs"></div>
+
     <div id="myDev"></div>
+
+    <script>
+        document.getElementById("justjs").innerHTML = "asdfs";
+    </script>
 
     <script type="text/babel">
         ReactDOM.render(
