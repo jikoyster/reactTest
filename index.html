@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ReactJS Basics</title>
+
+    <script src="node_modules/react/dist/react.min.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <h1>sample</h1>
+    <div id="myDev"></div>
+
+    <script type="text/babel">
+        ReactDOM.render(
+          <h1>inside #myDev</h1>,
+            document.getElementById("myDev")
+        );
+    </script>
+
+</body>
+</html>
